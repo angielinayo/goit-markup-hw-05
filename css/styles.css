@@ -327,7 +327,27 @@ button {
 
 .works-card {
     flex-basis: calc((100% - 60px) / 3);
+    position: relative;
 }
+
+.works-naming {
+    position: absolute;
+    
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    padding: 27px 0;
+    bottom: 0;
+}
+
+
 /*=============================TEAM SECTION============================*/
 .team-section {
     background-color: var(--backgr-grey-color);
@@ -458,7 +478,6 @@ button {
     padding: 0;
     margin: 0;
 }
-
 
 .portfolio-card {
     flex-basis: calc((100% - 60px) / 3);
